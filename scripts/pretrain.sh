@@ -49,7 +49,7 @@ OMP_NUM_THREADS=2 MKL_NUM_THREADS=2 CUDA_VISIBLE_DEVICES=4,5,6,7 python launch.p
 --atlas_path=/path/to/MDM \
 --model=unet \
 --opt=adamw \
---bs=64 \
+--bs=48 \
 --ep=100 \
 --wp_ep=10 \
 --base_lr=2e-4 \

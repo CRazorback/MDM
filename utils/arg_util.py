@@ -17,14 +17,13 @@ class Args(Tap):
     resume_from: str = ''   # resume from some checkpoint.pth
     amp: bool = True
     
-    # SparK hyperparameters
+    # MDM hyperparameters
     mask: float = 0.6   # mask ratio, should be in (0, 1)
     
     # encoder hyperparameters
     model: str = 'unet'
     input_size: int = 96
     sbn: bool = True
-    sparse: bool = True
     
     # data hyperparameters
     bs: int = 2

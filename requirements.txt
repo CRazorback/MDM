@@ -1,0 +1,7 @@
+monai==1.3.0
+tensorboard==2.13.0
+tensorboardx==2.6
+pytz==2023.3
+nibabel
+Pillow
+typed-argument-parser

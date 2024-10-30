@@ -125,7 +125,7 @@ class MDM(nn.Module):
         active_b1hwd = active_b1fff.repeat_interleave(self.downsample_ratio, 2).repeat_interleave(self.downsample_ratio, 3).repeat_interleave(self.downsample_ratio, 4)  # (B, 1, H, W, D)
         masked_bchwd = inp_bchwd * active_b1hwd
         
-        # step2. Encode: get hierarchical encoded sparse features (a list containing 4 feature maps at 4 scales)
+        # step2. Encode: get hierarchical encoded features (a list containing 4 feature maps at 4 scales)
         with autocast(enabled=amp, dtype=torch.bfloat16):
             fea_bcfffs: List[torch.Tensor] = self.encoder(masked_bchwd)
             fea_bcfffs.reverse()  # after reversion: from the smallest feature map to the largest
