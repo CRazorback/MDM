@@ -2,7 +2,7 @@
 
 By Junyan Lyu, Perry F. Bartlett, Fatima A. Nasrallah, Xiaoying Tang.
 
-This repository contains an official implementation of MDM for the TMI paper ["Masked Deformation Modeling for Volumetric Brain MRI Self-supervised Pre-training"]().
+This repository contains an official implementation of MDM for the TMI paper ["Masked Deformation Modeling for Volumetric Brain MRI Self-supervised Pre-training"](https://ieeexplore.ieee.org/document/10777582).
 
 ![image](./assets/pipeline.jpg)
 
