@@ -2,7 +2,7 @@
 
 By Junyan Lyu, Perry F. Bartlett, Fatima A. Nasrallah, Xiaoying Tang.
 
-This repository contains an official implementation of MDM for the TMI paper ["Masked Deformation Modeling for Volumetric Brain MRI Self-supervised Pre-training"](https://ieeexplore.ieee.org/document/10777582).
+This repository contains an official implementation of MDM for the *IEEE Transactions on Medical Imaging* paper ["Masked Deformation Modeling for Volumetric Brain MRI Self-supervised Pre-training"](https://ieeexplore.ieee.org/document/10777582).
 
 ![image](./assets/pipeline.jpg)
 
@@ -44,7 +44,7 @@ bash scripts/pretrain.sh mdm_run1
 If you find this repository useful, please consider citing TMI paper:
 
 ```
-@ARTICLE{lyu2024mdm,
+@ARTICLE{10777582,
   author={Lyu, Junyan and Bartlett, Perry F. and Nasrallah, Fatima A. and Tang, Xiaoying},
   journal={IEEE Transactions on Medical Imaging}, 
   title={Masked Deformation Modeling for Volumetric Brain MRI Self-supervised Pre-training}, 
@@ -52,5 +52,6 @@ If you find this repository useful, please consider citing TMI paper:
   volume={},
   number={},
   pages={1-1},
-  doi={}}
+  keywords={Brain;Magnetic resonance imaging;Deformation;Brain modeling;Image segmentation;Image restoration;Biomedical imaging;Annotations;Feature extraction;Lesions;Self-supervised learning;masked deformation modeling;brain segmentation},
+  doi={10.1109/TMI.2024.3510922}}
 ```
